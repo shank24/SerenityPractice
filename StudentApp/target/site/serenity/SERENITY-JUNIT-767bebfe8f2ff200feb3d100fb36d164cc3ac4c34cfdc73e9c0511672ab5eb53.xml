@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.studentapp.junit.studentsinfo.TagsTest" skipped="0" tests="3" time="2.73" timestamp="2017-10-274 12:33:36"><testcase classname="com.studentapp.junit.studentsinfo.TagsTest" name="Provide a 405 status code when incorrect HTTP method is used to access"><failure message="1 expectation failed.&#10;Expected status code &lt;405&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;405&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;405&gt; but was &lt;200&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.studentapp.junit.studentsinfo.TagsTest.inValidMethod(TagsTest.java:22)
+</system-err></testcase><testcase classname="com.studentapp.junit.studentsinfo.TagsTest" name="This test will provide an error code of 400 when user tries to access an invalid resource"/><testcase classname="com.studentapp.junit.studentsinfo.TagsTest" name="This test will verify if a status code of 200 is returned"/></testsuite>
